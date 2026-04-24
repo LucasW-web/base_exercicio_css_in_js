@@ -11,7 +11,7 @@ export const Formulario = styled.form`
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-}
+  }
 `
 
 export const BtnPesquisar = styled.button`
@@ -28,7 +28,7 @@ export const BtnPesquisar = styled.button`
     margin: 0 auto;
     margin-top: 16px;
     border-radius: 8px;
-}
+  }
 `
 
 export const Campo = styled.input`
@@ -40,5 +40,5 @@ export const Campo = styled.input`
     margin: 0 auto;
     border-radius: 8px;
     padding: 15px;
-}
+  }
 `

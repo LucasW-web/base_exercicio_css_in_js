@@ -1,4 +1,4 @@
-import {Topo} from 'styled-components'
+import { Topo } from './styled'
 
 const Cabecalho = () => (
   <Topo>

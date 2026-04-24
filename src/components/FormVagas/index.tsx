@@ -1,6 +1,6 @@
 import { FormEvent, useState } from 'react'
 
-import {Formulario, BtnPesquisar, Campo} from 'styled'
+import { Formulario, BtnPesquisar, Campo } from './styled'
 
 type Props = {
   aoPesquisar: (termo: string) => void
@@ -21,7 +21,7 @@ const FormVagas = ({ aoPesquisar }: Props) => {
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
-      <BtnPesquisar type="submit">Pesquisar</button>
+      <BtnPesquisar type="submit">Pesquisar</BtnPesquisar>
     </Formulario>
   )
 }
